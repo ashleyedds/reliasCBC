@@ -1,0 +1,42 @@
+@font-face {
+    font-family: gothamBold;
+    src: url(./Gotham\ Bold\ Regular.ttf);
+}
+
+.missionStatement {
+    text-align: center;
+    font-family: gothamBold;
+    color: #6ba539;
+    padding: 20px;
+}
+.initialVideo {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.section1 {
+    height: 100vh;
+}
+
+.brian, .charlie, .ashley, .britta {
+    border-radius: 50%;
+    width: 10vw;
+    margin: auto;
+    padding-top: 10px;
+}
+
+.brianCard {
+    background-color: red;
+}
+
+.charlieCard {
+    background-color: green;
+}
+
+.ashleyCard {
+    background-color: yellow;
+}
+
+.brittaCard {
+    background-color: blue;
+}
