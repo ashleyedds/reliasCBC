@@ -9,34 +9,81 @@
     color: #6ba539;
     padding: 20px;
 }
+
 .initialVideo {
+    margin: 20px;
+}
+
+.logo {
     width: 50%;
-    margin: 0 auto;
+    margin: auto;
+    display: block;
+}
+
+.logoRow {
+    background-color:rgba(105,178,66, 0.8);
+    width: 100vw;
+    margin-bottom: 20px
 }
 
 .section1 {
+    height: 70vh;
+}
+
+.container-fluid {
+    width: 90vw;
     height: 100vh;
 }
 
 .brian, .charlie, .ashley, .britta {
     border-radius: 50%;
-    width: 10vw;
+    width: 12vw;
     margin: auto;
     padding-top: 10px;
 }
 
 .brianCard {
-    background-color: red;
+    background-color: #bb4040;
+    opacity: 0;
 }
 
 .charlieCard {
-    background-color: green;
+    background-color: #7ca52e;
+    opacity: 0;
 }
 
 .ashleyCard {
-    background-color: yellow;
+    background-color: #fdc557;
+    opacity: 0;
 }
 
 .brittaCard {
-    background-color: blue;
+    background-color: #0079c2;
+    opacity: 0;
 }
+
+.pBrian, .pCharlie, .pAshley, .pBritta {
+    border-radius: 50%;
+    width: 17%;
+    margin: auto;
+    padding-top: 10px;
+    opacity: 0;
+}
+
+.passionCard {
+    background-color: rgba(105,178,66, 0.8);
+    opacity: 0;
+}
+
+.cardRow{
+    height: 30vh;
+}
+
+.card-deck .card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: gothamBold;
+}
+
