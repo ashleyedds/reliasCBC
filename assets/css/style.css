@@ -3,15 +3,36 @@
     src: url(./Gotham\ Bold\ Regular.ttf);
 }
 
+@font-face {
+    font-family: gothamRegular;
+    src: url(./Gotham\ Book\ Regular.otf);
+}
+
+@font-face {
+    font-family: perpetuaBold;
+    src: url(./Perpetua\ Bold\ Bold\ font.ttf)
+}
+
+@font-face {
+    font-family: perpetuaRegular;
+    src: url(./per_____.ttf);
+}
+
+* {
+    box-sizing: border-box;
+}
+
 .missionStatement {
     text-align: center;
-    font-family: gothamBold;
+    font-family: perpetuaBold;
+    font-size: 2.5rem;
     color: #6ba539;
-    padding: 20px;
+    padding: 10px;
 }
 
 .initialVideo {
-    margin: 20px;
+    width: 75%;
+    margin: 0 auto;
 }
 
 .logo {
@@ -32,7 +53,7 @@
 
 .container-fluid {
     width: 90vw;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 .brian, .charlie, .ashley, .britta {
@@ -84,6 +105,21 @@
 }
 
 .card-title {
-    font-family: gothamBold;
+    font-family: perpetuaBold;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.card-text {
+    font-family: gothamRegular;
+    text-align: center;
+}
+li {
+    font-family: gothamRegular;
+    font-size: 0.80rem;
+}
+
+.section3 {
+    margin: 50px auto;
 }
 

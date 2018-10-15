@@ -1,6 +1,7 @@
 $(document).ready(function () {
 
     $(document).keypress(function (event) {
+
         if (event.charCode === 49) {
             $(".brianCard").animate({ "opacity": "1" }, 2000);
         }
