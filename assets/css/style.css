@@ -10,7 +10,7 @@
 
 @font-face {
     font-family: perpetuaBold;
-    src: url(./Perpetua\ Bold\ Bold\ font.ttf)
+    src: url("./Perpetua\ Bold\ Bold\ font.ttf")
 }
 
 @font-face {
@@ -43,7 +43,7 @@
 
 .logoRow {
     background-color:rgba(105,178,66, 0.8);
-    width: 100vw;
+    width: 99.8vw;;
     margin-bottom: 20px
 }
 
@@ -53,7 +53,6 @@
 
 .container-fluid {
     width: 90vw;
-    /* height: 100vh; */
 }
 
 .brian, .charlie, .ashley, .britta {
@@ -114,12 +113,28 @@
     font-family: gothamRegular;
     text-align: center;
 }
+
 li {
     font-family: gothamRegular;
-    font-size: 0.80rem;
+    font-size: 1.25rem;
 }
 
 .section3 {
     margin: 50px auto;
 }
 
+.group {
+    margin: 0 auto;
+}
+
+.groupPic {
+    background-color: rgba(105,178,66, 0.8);
+}
+
+.challenge {
+    font-family: gothamBold;
+    color: #6ba539;
+    text-align: center;
+    margin: 10px 10px 50px 10px;
+    font-size: 2rem;
+}
