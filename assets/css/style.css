@@ -64,22 +64,18 @@
 
 .brianCard {
     background-color: #bb4040;
-    opacity: 0;
 }
 
 .charlieCard {
     background-color: #7ca52e;
-    opacity: 0;
 }
 
 .ashleyCard {
     background-color: #fdc557;
-    opacity: 0;
 }
 
 .brittaCard {
     background-color: #0079c2;
-    opacity: 0;
 }
 
 .pBrian, .pCharlie, .pAshley, .pBritta {
@@ -87,12 +83,10 @@
     width: 17%;
     margin: auto;
     padding-top: 10px;
-    opacity: 0;
 }
 
 .passionCard {
     background-color: rgba(105,178,66, 0.8);
-    opacity: 0;
 }
 
 .cardRow{
